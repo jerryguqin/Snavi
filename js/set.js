@@ -25,17 +25,17 @@ var se_list_preinstall = {
     },
     '2': {
         id: 2,
-        title: "必应",
-        url: "https://cn.bing.com/search",
-        name: "q",
-        icon: "iconfont icon-bing",
-    },
-    '3': {
-        id: 3,
         title: "谷歌",
         url: "https://www.google.com/search",
         name: "q",
         icon: "iconfont icon-google",
+    },
+    '3': {
+        id: 3,
+        title: "必应",
+        url: "https://cn.bing.com/search",
+        name: "q",
+        icon: "iconfont icon-bing",
     },
     '4': {
         id: 4,
@@ -46,10 +46,10 @@ var se_list_preinstall = {
     },
     '5': {
         id: 5,
-        title: "360",
-        url: "https://www.so.com/s",
+        title: "Github",
+        url: "https://github.com/search",
         name: "q",
-        icon: "iconfont icon-360sousuo",
+        icon: "iconfont icon-github",
     },
     '6': {
         id: 6,
@@ -67,10 +67,10 @@ var se_list_preinstall = {
     },
     '8': {
         id: 8,
-        title: "Github",
-        url: "https://github.com/search",
+        title: "360",
+        url: "https://www.so.com/s",
         name: "q",
-        icon: "iconfont icon-github",
+        icon: "iconfont icon-360sousuo",
     },
     '9': {
         id: 9,
@@ -98,53 +98,30 @@ var se_list_preinstall = {
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
-        title: "Vercel",
-        url: "https://vercel.com/",
+        title: "群晖DSM",
+        url: "https://nas.0830.tech:8100",
     },
     '2': {
-        title: "GitHub",
-        url: "https://github.com/",
+        title: "群晖Photos",
+        url: "https://nas.0830.tech:9200",
     },
     '3': {
-        title: "Cloudflare",
-        url: "https://dash.cloudflare.com/",
+        title: "群晖Audio",
+        url: "https://nas.0830.tech:9300",
     },
     '4': {
-        title: "W3school",
-        url: "https://www.w3school.com.cn/",
+        title: "群晖Contacts",
+        url: "https://nas.0830.tech:8500",
     },
     '5': {
-        title: "腾讯云",
-        url: "https://console.cloud.tencent.com/",
+        title: "群晖Calendar",
+        url: "https://nas.0830.tech:8700",
     },
     '6': {
-        title: "阿里云",
-        url: "https://console.aliyun.com/",
-    },
-    '7': {
-        title: "百度网盘",
-        url: "https://pan.baidu.com/",
-    },
-    '8': {
-        title: "阿里云盘",
-        url: "https://www.aliyundrive.com/drive/",
-    },
-    '9': {
-        title: "Office",
-        url: "https://www.office.com/",
-    },
-    '10': {
-        title: "又拍云",
-        url: "https://console.upyun.com/",
-    },
-    '11': {
-        title: "CSDN",
-        url: "https://www.csdn.net/",
-    },
-    '12': {
-        title: "哔哩哔哩",
-        url: "https://www.bilibili.com/",
+        title: "群晖Drive",
+        url: "https://nas.0830.tech:8200",
     }
+
 };
 
 // 获取搜索引擎列表
